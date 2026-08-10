@@ -1,3 +1,6 @@
+# Application properties (contains passwords)
+src/main/resources/application.properties
+
 # Compiled class file
 *.class
 
