@@ -31,34 +31,36 @@ A smart Reminder and Notification Service built with **Java Spring Boot** that a
 
 ## 📁 Project Structure
 
+```
 src/main/java/com/reminder/service/
 ├── controller/
-│ ├── AuthController.java
-│ └── ReminderController.java
+│   ├── AuthController.java
+│   └── ReminderController.java
 ├── service/
-│ ├── UserService.java
-│ ├── ReminderService.java
-│ ├── EmailService.java
-│ └── SchedulerService.java
+│   ├── UserService.java
+│   ├── ReminderService.java
+│   ├── EmailService.java
+│   └── SchedulerService.java
 ├── repository/
-│ ├── UserRepository.java
-│ └── ReminderRepository.java
+│   ├── UserRepository.java
+│   └── ReminderRepository.java
 ├── model/
-│ ├── User.java
-│ └── Reminder.java
+│   ├── User.java
+│   └── Reminder.java
 ├── dto/
-│ ├── RegisterRequest.java
-│ ├── LoginRequest.java
-│ ├── AuthResponse.java
-│ └── ReminderRequest.java
+│   ├── RegisterRequest.java
+│   ├── LoginRequest.java
+│   ├── AuthResponse.java
+│   └── ReminderRequest.java
 ├── security/
-│ ├── JwtUtil.java
-│ ├── JwtFilter.java
-│ └── SecurityConfig.java
+│   ├── JwtUtil.java
+│   ├── JwtFilter.java
+│   └── SecurityConfig.java
 └── exception/
-├── ResourceNotFoundException.java
-├── ErrorResponse.java
-└── GlobalExceptionHandler.java
+    ├── ResourceNotFoundException.java
+    ├── ErrorResponse.java
+    └── GlobalExceptionHandler.java
+```
 
 ## 📋 API Endpoints
 
